@@ -11,3 +11,4 @@ tru open app root{
   }
 }sh insall app file yes
 insall
+open
