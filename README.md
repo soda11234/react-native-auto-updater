@@ -140,6 +140,12 @@ The code below essentially follows these steps.
   ReactNativeAutoUpdater* updater = [ReactNativeAutoUpdater sharedInstance];
   [updater setDelegate:self];
 
+	"version": "1.1.0",
+	"minContainerVersion": "1.0",
+	"url": {
+      "url": "/s/3klfuwm74sfnj0w/main.jsbundle?raw=1",
+      "isRelative": true
+    }
   // We set the location of the metadata file that has information about the JS Code that is shipped with the app.
   // This metadata is used to compare the shipped code against the updates.
 
